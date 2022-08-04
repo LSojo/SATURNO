@@ -1,0 +1,122 @@
+body {
+  background: black;
+  color: white;
+}
+
+.nav-black {
+  background-color: black !important;
+}
+
+.itemfoot {
+  grid-area: footer;
+  background-color: black;
+  color: black;
+  text-align: center;
+}
+
+@font-face {
+  font-family: century-gothic;
+  src: url("../fonts/CenturyGothic.ttf") format("truetype");
+}
+
+* {
+  font-family: century-gothic;
+  color: white;
+}
+
+.bioImg {
+  background-image: url(../images/bio_.png);
+  background-color: #cccccc;
+  height: 750px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bioImg2 {
+  background-image: url(../images/bio_.png);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contImg {
+  background-image: url(../images/cont_.png);
+  background-color: #cccccc;
+  height: 780px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contImg2 {
+  background-image: url(../images/cont_.png);
+  background-color: #cccccc;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title_shop {
+  margin-top: 30px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.col_sim {
+  text-align: center;
+  margin-top: 9%;
+}
+
+.col_tie {
+  text-align: center;
+}
+
+.formDiv {
+  float: right;
+  margin-top: 18%;
+  margin-right: 20%;
+}
+
+.parrafo {
+  text-align: center;
+  margin-top: 30%;
+  margin-right: 40%;
+}
+
+.col_sat {
+  text-align: center;
+  margin-top: 9%;
+}
+
+.nav-options {
+  float: right;
+  margin-right: 4%;
+}
+
+.rrss {
+  float: right;
+  margin-top: 20%;
+  margin-right: 10%;
+  font-size: 150%;
+}
+
+.button {
+  float: right;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  align-items: center;
+  border: 1px solid black;
+  padding: 20px;
+  margin-left: 5%;
+}
+
+.contenedor {
+  width: 100%;
+  background-color: black;
+}
