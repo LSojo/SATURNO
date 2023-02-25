@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&display=swap');
+
 body {
   background: black;
   color: white;
@@ -15,11 +17,13 @@ body {
 }
 
 @font-face {
+  font-family: 'Sawarabi Gothic', sans-serif;
   font-family: century-gothic;
   src: url("../fonts/CenturyGothic.ttf") format("truetype");
 }
 
 * {
+  font-family: 'Sawarabi Gothic', sans-serif;
   font-family: century-gothic;
   color: white;
 }
